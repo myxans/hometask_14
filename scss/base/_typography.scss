@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font: 400 12px/1.5 'Lato', 'Arial', 'Helvetica', sans-serif;
+}
+
+h1 {
+    @extend %rounded_h;
+    color: $primary-font-color;
+    font-size: 72px;
+}
+
+h2 {
+    @extend %rounded_h;
+    font-size: 36px;
+}
+
+h3 {
+    @extend %rounded_h;
+    font-size: 18px;
+}
+
+.header a {
+    font-size: 14px;
+    line-height: $primary-line_heigt;
+    color: $primary-font-color;
+}

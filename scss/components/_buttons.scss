@@ -1,0 +1,33 @@
+.header_button {
+    @extend %rounded_button;
+    min-width: 100px;
+    padding: 10px 28px;
+    background: transparent;
+    color: $primary-font-color;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: $secondary-font-color;
+        background-color: $primary-font-color;
+    }
+}
+.main_button {
+    @extend %rounded_button;
+    min-width: 160px;
+    padding: 15px 50px;
+    font-weight: 700;
+    color: #ED4C5C;
+    background-color: #fff;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: $primary-font-color;
+        background-color: $secondary-font-color;
+    }
+}
+
+.conteiner {
+    max-width: $container-size;
+    padding: $container-padding;
+    margin: 0 auto;
+}
