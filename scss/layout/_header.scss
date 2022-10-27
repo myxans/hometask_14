@@ -8,6 +8,7 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 30px;
+        position: relative;
     }
 }
 
@@ -15,12 +16,13 @@
     display: flex;
     align-items: center;
 
-        & a {
+        a {
             margin-right: 10px;
             max-width: 29px;
+            max-height: 29px;
         }
 
-        & p {
+        p {
             color: $primary-font-color;
             font-size: 18px;
             line-height: $primary-line_heigt;
@@ -40,6 +42,7 @@
         &:hover {
             color: $secondary-font-color;
             background-color: $primary-font-color;
+            font-weight: 700;
         }
     }    
 }

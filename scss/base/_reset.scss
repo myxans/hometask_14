@@ -94,11 +94,14 @@ video {
 .main {
     flex-grow: 1;
 }
-
 a {
     text-decoration: none;
 }
 
 li {
     list-style-type: none;
+}
+
+button {
+    box-sizing: content-box;
 }

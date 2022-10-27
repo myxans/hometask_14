@@ -12,12 +12,24 @@
             color: $secondary-font-color;
             padding-bottom: 85px;
 
+            @media (max-width: 768px) {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 30px;
+                padding-bottom: 30px;
+            }
+
             & h3 {
                 margin-bottom: 33px;
+
+                @media (max-width: 768px) {
+                    margin-bottom: 5px;
+                }
             }
 
             & p {
                 max-width: 254px;
+                
             }
 
             & a {
@@ -53,4 +65,8 @@
 
 .footer_bottom {
     margin-bottom: 85px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 30px;
+    }
 }

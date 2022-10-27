@@ -3,9 +3,16 @@
     line-height: $primary-line_heigt;
     border: 1px solid #fff;
     border-radius: 6px;
+    display: inline-block;
 }
 
 %rounded_h {
     line-height: $primary-line_heigt;
     font-weight: 700;
+}
+
+%rounded_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

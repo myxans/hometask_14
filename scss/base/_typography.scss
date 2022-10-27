@@ -8,6 +8,10 @@ h1 {
     @extend %rounded_h;
     color: $primary-font-color;
     font-size: 72px;
+
+    @media (max-width: 768px) {
+        font-size: 40px;
+    }
 }
 
 h2 {
