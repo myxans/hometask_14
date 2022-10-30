@@ -19,7 +19,7 @@
 .main_button {
     @extend %rounded_button;
     min-width: 160px;
-    padding: 15px 50px;
+    min-height: 50px;
     font-weight: 700;
     color: #ED4C5C;
     background-color: #fff;
@@ -34,22 +34,5 @@
     @media (max-width: 768px) {
         padding: 10px 20px;
         min-width: 120px;
-    }
-}
-
-.conteiner {
-    max-width: $container-size;
-    padding: $container-padding;
-    margin: 0 auto;
-
-    @media (max-width: 1390px) {
-        padding: 0 100px;
-    }
-
-    @media (max-width: 1260px) {
-        padding: 0 50px;
-    }
-    @media (max-width: 1160px) {
-        padding: 0 15px;
     }
 }

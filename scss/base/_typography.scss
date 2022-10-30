@@ -8,24 +8,38 @@ h1 {
     @extend %rounded_h;
     color: $primary-font-color;
     font-size: 72px;
+    text-transform: uppercase;
 
     @media (max-width: 768px) {
         font-size: 40px;
+        line-height: 1;
     }
 }
 
 h2 {
     @extend %rounded_h;
     font-size: 36px;
+
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
 }
 
 h3 {
     @extend %rounded_h;
     font-size: 18px;
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 .header a {
     font-size: 14px;
     line-height: $primary-line_heigt;
     color: $primary-font-color;
+}
+
+address {
+    color: $secondary-font-color;
 }

@@ -9,6 +9,7 @@
     @media (max-width: 1024px) {
             display: block;
             position: absolute;
+            color: #fff;
             right: 12px;
             top: 72%;
             transform: translateY(-50%);
@@ -27,17 +28,20 @@
         right: 0;
         top: 0px;
         bottom: 0;
-        background-color: rgb(26, 84, 26);
+        background-color: rgba(231, 240, 231, 0.927);
         transform: translateX(100%);
-        transition: transform 0.2s linear;
+        transition: transform 0.1s linear;
         padding-top: 61px;
         z-index: 1;
     }
 
     a {
-        margin-top: 12px;
-        margin-bottom: 12px;
-        padding-left: 5px;
+
+        @media (max-width: 1024px) {
+        padding: 15px 20px;
+        text-align: center;
+        color: #ED4C5C;
+        }
     }
 }
 
@@ -55,6 +59,6 @@ button {
 
 #burger_input:checked~.burger_icon {
     @media (max-width: 1024px) {
-        color: #fff;
+        color: #ED4C5C;
     }
 }

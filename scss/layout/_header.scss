@@ -20,9 +20,13 @@
             margin-right: 10px;
             max-width: 29px;
             max-height: 29px;
+
+            &:active {
+                font-weight: 700;
+            }
         }
 
-        p {
+        .text_logo {
             color: $primary-font-color;
             font-size: 18px;
             line-height: $primary-line_heigt;
@@ -37,11 +41,14 @@
     max-width: 445px;
 
     a {
-        transition: all 1s linear;
+        text-transform: uppercase;
+        transition: all 0.2s linear;
 
         &:hover {
-            color: $secondary-font-color;
-            background-color: $primary-font-color;
+            font-weight: 700;
+        }
+
+        &:active {
             font-weight: 700;
         }
     }    
