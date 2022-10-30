@@ -163,8 +163,6 @@ h3 {
 }
 
 .header a {
-  font-size: 14px;
-  line-height: 1.2;
   color: #FFFFFF;
 }
 
@@ -252,17 +250,17 @@ address {
 }
 .header_logo a {
   margin-right: 10px;
-  max-width: 29px;
-  max-height: 29px;
-}
-.header_logo a:active {
-  font-weight: 700;
 }
 .header_logo .text_logo {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 700;
+  text-transform: uppercase;
+}
+.header_logo img {
+  max-width: 29px;
+  max-height: 29px;
 }
 
 .header_nav {
@@ -319,6 +317,10 @@ address {
     padding-top: 61px;
     z-index: 1;
   }
+}
+.header_nav a {
+  font-size: 14px;
+  line-height: 1.2;
 }
 @media (max-width: 1024px) {
   .header_nav a {

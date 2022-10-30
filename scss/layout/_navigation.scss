@@ -36,6 +36,8 @@
     }
 
     a {
+        font-size: 14px;
+        line-height: $primary-line_heigt;
 
         @media (max-width: 1024px) {
         padding: 15px 20px;

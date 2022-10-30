@@ -18,12 +18,6 @@
 
         a {
             margin-right: 10px;
-            max-width: 29px;
-            max-height: 29px;
-
-            &:active {
-                font-weight: 700;
-            }
         }
 
         .text_logo {
@@ -31,6 +25,12 @@
             font-size: 18px;
             line-height: $primary-line_heigt;
             font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        img {
+            max-width: 29px;
+            max-height: 29px;
         }
 }
 
